@@ -1,22 +1,10 @@
-import { useEffect } from 'react'
-import { View, ActivityIndicator } from 'react-native'
-import { router } from 'expo-router'
-import { supabase } from '@/lib/supabase'
+import { View, Text } from 'react-native'
 
 export default function IndexScreen() {
-  useEffect(() => {
-    supabase.auth.getSession().then(({ data }) => {
-      if (data.session) {
-        router.replace('/(tabs)/dashboard')
-      } else {
-        router.replace('/(auth)/login')
-      }
-    })
-  }, [])
-
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#fff' }}>
-      <ActivityIndicator color="#C0392B" size="large" />
+      <Text style={{ fontSize: 24, color: '#C0392B', fontWeight: 'bold' }}>AMANA</Text>
+      <Text style={{ color: '#666', marginTop: 8 }}>Expo Router OK</Text>
     </View>
   )
 }
