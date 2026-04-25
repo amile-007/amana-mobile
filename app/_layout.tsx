@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { Stack, router } from 'expo-router'
+import { View, ActivityIndicator } from 'react-native'
 import { AuthProvider, useAuth } from '@/context/AuthContext'
 
 function RootNavigator() {
@@ -7,9 +8,20 @@ function RootNavigator() {
 
   useEffect(() => {
     if (loading) return
-    if (!session) router.replace('/(auth)/login')
-    else router.replace('/(tabs)/dashboard')
+    if (session) {
+      router.replace('/(tabs)/dashboard')
+    } else {
+      router.replace('/(auth)/login')
+    }
   }, [session, loading])
+
+  if (loading) {
+    return (
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <ActivityIndicator color="#C0392B" />
+      </View>
+    )
+  }
 
   return (
     <Stack screenOptions={{ headerShown: false }}>
