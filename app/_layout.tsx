@@ -1,4 +1,11 @@
 import { Stack } from 'expo-router'
+import * as TaskManager from 'expo-task-manager'
+import { LOCATION_TASK, getTaskHandler } from '@/tasks/locationTask'
+
+// Enregistrement de la tâche GPS au niveau module (requis par expo-task-manager)
+if (!TaskManager.isTaskDefined(LOCATION_TASK)) {
+  TaskManager.defineTask(LOCATION_TASK, getTaskHandler())
+}
 
 export default function RootLayout() {
   return (

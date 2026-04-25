@@ -7,6 +7,7 @@ import { router } from 'expo-router'
 import { supabase } from '@/lib/supabase'
 import { startGpsTracking } from '@/tasks/locationTask'
 
+
 export default function LoginScreen() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
