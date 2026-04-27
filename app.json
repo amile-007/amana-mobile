@@ -19,7 +19,10 @@
       "infoPlist": {
         "NSLocationWhenInUseUsageDescription": "AMANA utilise votre position pour les missions de collecte.",
         "NSLocationAlwaysAndWhenInUseUsageDescription": "AMANA utilise votre position en arrière-plan pour le suivi des missions.",
-        "UIBackgroundModes": ["location", "fetch"]
+        "UIBackgroundModes": [
+          "location",
+          "fetch"
+        ]
       }
     },
     "android": {
@@ -37,7 +40,10 @@
         "android.permission.RECEIVE_BOOT_COMPLETED"
       ]
     },
-    "web": { "bundler": "metro", "favicon": "./assets/favicon.png" },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png"
+    },
     "plugins": [
       "expo-router",
       [
@@ -47,6 +53,15 @@
         }
       ]
     ],
-    "experiments": { "typedRoutes": true }
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "169d3414-5136-4a9b-86ef-2ad9810e0ad0"
+      }
+    },
+    "owner": "amana-collecte"
   }
 }

@@ -1,0 +1,264 @@
+The field "cli.appVersionSource" is not set, but it will be required in the future. Learn more: https://docs.expo.dev/build-reference/app-versions/
+Resolved "production" environment for the build. Learn more: https://docs.expo.dev/eas/environment-variables/#setting-the-environment-for-your-builds
+No environment variables with visibility "Plain text" and "Sensitive" found for the "production" environment on EAS.
+Environment variables loaded from the "preview" build profile "env" configuration: EXPO_PUBLIC_SUPABASE_URL, EXPO_PUBLIC_SUPABASE_ANON_KEY.
+
+The field "cli.appVersionSource" is not set, but it will be required in the future. Learn more: https://docs.expo.dev/build-reference/app-versions/
+✔ Using remote Android credentials (Expo server)
+✔ Using Keystore from configuration: Build Credentials PkTx_EjURF (default)
+⠋ Computing project fingerprint⠙ Computing project fingerprint⠹ Computing project fingerprint⠸ Computing project fingerprint⠼ Computing project fingerprint⠴ Computing project fingerprint⠦ Computing project fingerprint⠧ Computing project fingerprint⠇ Computing project fingerprint⠏ Computing project fingerprint⠋ Computing project fingerprint⠙ Computing project fingerprint⠹ Computing project fingerprint⠸ Computing project fingerprint⠼ Computing project fingerprint⠴ Computing project fingerprint⠦ Computing project fingerprint⠧ Computing project fingerprint⠇ Computing project fingerprint⠏ Computing project fingerprint⠋ Computing project fingerprint⠙ Computing project fingerprint⠹ Computing project fingerprint⠸ Computing project fingerprint⠼ Computing project fingerprint⠴ Computing project fingerprint⠦ Computing project fingerprint⠧ Computing project fingerprint⠇ Computing project fingerprint⠏ Computing project fingerprint⠋ Computing project fingerprint⠙ Computing project fingerprint⠹ Computing project fingerprint⠸ Computing project fingerprint⠼ Computing project fingerprint⠴ Computing project fingerprint⠦ Computing project fingerprint⠧ Computing project fingerprint⠇ Computing project fingerprint⠏ Computing project fingerprint⠋ Computing project fingerprint⠙ Computing project fingerprint⠹ Computing project fingerprint⠸ Computing project fingerprint⠼ Computing project fingerprint⠴ Computing project fingerprint⠦ Computing project fingerprint⠧ Computing project fingerprint⠇ Computing project fingerprint⌛️ Computing the project fingerprint is taking longer than expected...
+⠋ Computing project fingerprint⏩ To skip this step, set the environment variable: EAS_SKIP_AUTO_FINGERPRINT=1
+⠋ Computing project fingerprint⠙ Computing project fingerprint⠹ Computing project fingerprint⠸ Computing project fingerprint⠼ Computing project fingerprint⠴ Computing project fingerprint⠦ Computing project fingerprint⠧ Computing project fingerprint⠇ Computing project fingerprint⠏ Computing project fingerprint⠋ Computing project fingerprint⠙ Computing project fingerprint⠹ Computing project fingerprint⠸ Computing project fingerprint⠼ Computing project fingerprint⠴ Computing project fingerprint⠦ Computing project fingerprint⠧ Computing project fingerprint⠇ Computing project fingerprint⠏ Computing project fingerprint⠋ Computing project fingerprint⠙ Computing project fingerprint⠹ Computing project fingerprint⠸ Computing project fingerprint⠼ Computing project fingerprint⠴ Computing project fingerprint⠦ Computing project fingerprint⠧ Computing project fingerprint⠇ Computing project fingerprint⠏ Computing project fingerprint⠋ Computing project fingerprint⠙ Computing project fingerprint⠹ Computing project fingerprint⠸ Computing project fingerprint⠼ Computing project fingerprint⠴ Computing project fingerprint⠦ Computing project fingerprint⠧ Computing project fingerprint⠇ Computing project fingerprint⠏ Computing project fingerprint⠋ Computing project fingerprint⠙ Computing project fingerprint⠹ Computing project fingerprint⠸ Computing project fingerprint⠼ Computing project fingerprint⠴ Computing project fingerprint⠦ Computing project fingerprint⠧ Computing project fingerprint⠇ Computing project fingerprint⠏ Computing project fingerprint⠋ Computing project fingerprint⠙ Computing project fingerprint⠹ Computing project fingerprint⠸ Computing project fingerprint⠼ Computing project fingerprint⠴ Computing project fingerprint⠦ Computing project fingerprint⠧ Computing project fingerprint⠇ Computing project fingerprint⠏ Computing project fingerprint⠋ Computing project fingerprint⠙ Computing project fingerprint✔ Computed project fingerprint
+ANDROID_NDK_HOME environment variable was not specified, continuing build without NDK
+[SETUP_WORKINGDIR] Preparing workingdir /tmp/a_13137/eas-build-local-nodejs/917d5a20-fec6-466b-90a8-216c2b42fe3b
+[START_BUILD] Starting build
+  "job": {
+    "type": "managed",
+    "platform": "android",
+    "projectRootDirectory": ".",
+    "projectArchive": {
+      "type": "PATH",
+      "path": "/tmp/a_13137/eas-cli-nodejs/23250b2e-5dc6-4713-a981-744deef01eab.tar.gz"
+    },
+    "builderEnvironment": {
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://qiuslgxaekojqzasrxzq.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "sb_publishable_8D4T1urki0dZ6zBAhbn3zw_VWcTzsGH"
+      }
+    },
+    "cache": {
+      "disabled": false,
+      "paths": [],
+      "clear": false
+    },
+    "updates": {},
+    "buildType": "apk",
+    "username": "amana-collecte",
+    "experimental": {},
+    "mode": "build",
+    "triggeredBy": "EAS_CLI",
+    "appId": "169d3414-5136-4a9b-86ef-2ad9810e0ad0",
+    "initiatingUserId": "42df270d-1b76-4266-8498-4b9d2ec34b09"
+  }
+Local build, skipping project archive refresh
+[PREPARE_PROJECT] .npmrc found at .npmrc
+[READ_EAS_JSON] Using eas.json:
+[READ_EAS_JSON] {
+  "cli": {
+    "version": ">= 14.0.0"
+  },
+  "build": {
+    "preview": {
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://qiuslgxaekojqzasrxzq.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "sb_publishable_8D4T1urki0dZ6zBAhbn3zw_VWcTzsGH"
+      }
+    },
+    "production": {
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://qiuslgxaekojqzasrxzq.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "sb_publishable_8D4T1urki0dZ6zBAhbn3zw_VWcTzsGH"
+      }
+    }
+  }
+}
+
+[READ_PACKAGE_JSON] Using package.json:
+[READ_PACKAGE_JSON] {
+  "name": "mobile",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "babel-preset-expo": "~54.0.10",
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@supabase/supabase-js": "^2.104.1",
+    "expo": "~54.0.33",
+    "expo-battery": "~10.0.8",
+    "expo-constants": "~18.0.13",
+    "expo-linking": "~8.0.11",
+    "expo-location": "~19.0.8",
+    "expo-router": "~6.0.23",
+    "expo-status-bar": "~3.0.9",
+    "expo-task-manager": "~14.0.9",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "~4.16.0",
+    "react-native-web": "^0.21.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.0",
+    "babel-plugin-module-resolver": "^5.0.3",
+    "typescript": "~5.9.2"
+  },
+  "private": true
+}
+[INSTALL_DEPENDENCIES] Running "npm ci --include=dev" in /tmp/a_13137/eas-build-local-nodejs/917d5a20-fec6-466b-90a8-216c2b42fe3b/build directory
+[INSTALL_DEPENDENCIES] npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+[INSTALL_DEPENDENCIES] npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+[INSTALL_DEPENDENCIES] npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+[INSTALL_DEPENDENCIES] npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+[INSTALL_DEPENDENCIES] npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+[INSTALL_DEPENDENCIES] npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+[INSTALL_DEPENDENCIES] npm warn deprecated glob@9.3.5: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+[INSTALL_DEPENDENCIES] added 825 packages, and audited 826 packages in 14s
+[INSTALL_DEPENDENCIES] 
+[INSTALL_DEPENDENCIES] 59 packages are looking for funding
+[INSTALL_DEPENDENCIES]   run `npm fund` for details
+[INSTALL_DEPENDENCIES] 12 moderate severity vulnerabilities
+[INSTALL_DEPENDENCIES] 
+[INSTALL_DEPENDENCIES] To address issues that do not require attention, run:
+[INSTALL_DEPENDENCIES]   npm audit fix
+[INSTALL_DEPENDENCIES] 
+[INSTALL_DEPENDENCIES] To address all issues (including breaking changes), run:
+[INSTALL_DEPENDENCIES]   npm audit fix --force
+[INSTALL_DEPENDENCIES] 
+[INSTALL_DEPENDENCIES] Run `npm audit` for details.
+The NODE_ENV environment variable is required but was not specified. Ensure the project is bundled with Expo CLI or NODE_ENV is set.
+Proceeding without mode-specific .env
+[READ_APP_CONFIG] Using app configuration:
+[READ_APP_CONFIG] {
+  "name": "AMANA Collecte",
+  "slug": "amana-collecte-mobile",
+  "version": "1.0.0",
+  "scheme": "amana",
+  "orientation": "portrait",
+  "icon": "./assets/icon.png",
+  "userInterfaceStyle": "light",
+  "newArchEnabled": true,
+  "splash": {
+    "image": "./assets/splash-icon.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#C0392B"
+  },
+  "ios": {
+    "supportsTablet": false,
+    "bundleIdentifier": "ma.barid.amana.collecte",
+    "infoPlist": {
+      "NSLocationWhenInUseUsageDescription": "AMANA utilise votre position pour les missions de collecte.",
+      "NSLocationAlwaysAndWhenInUseUsageDescription": "AMANA utilise votre position en arrière-plan pour le suivi des missions.",
+      "UIBackgroundModes": [
+        "location",
+        "fetch"
+      ]
+    }
+  },
+  "android": {
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/adaptive-icon.png",
+      "backgroundColor": "#C0392B"
+    },
+    "package": "ma.barid.amana.collecte",
+    "edgeToEdgeEnabled": true,
+    "permissions": [
+      "android.permission.ACCESS_FINE_LOCATION",
+      "android.permission.ACCESS_COARSE_LOCATION",
+      "android.permission.ACCESS_BACKGROUND_LOCATION",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.RECEIVE_BOOT_COMPLETED"
+    ]
+  },
+  "web": {
+    "bundler": "metro",
+    "favicon": "./assets/favicon.png"
+  },
+  "plugins": [
+    "expo-router",
+    [
+      "expo-location",
+      {
+        "locationAlwaysAndWhenInUsePermission": "AMANA utilise votre position pour les missions de collecte."
+      }
+    ]
+  ],
+  "experiments": {
+    "typedRoutes": true
+  },
+  "extra": {
+    "router": {},
+    "eas": {
+      "projectId": "169d3414-5136-4a9b-86ef-2ad9810e0ad0"
+    }
+  },
+  "owner": "amana-collecte",
+  "sdkVersion": "54.0.0",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ]
+}
+[RUN_EXPO_DOCTOR] Running "expo doctor"
+[RUN_EXPO_DOCTOR] Running 17 checks on your project...
+[RUN_EXPO_DOCTOR] 17/17 checks passed. No issues detected!
+[PREBUILD] - Creating native directory (./android)
+[PREBUILD] ✔ Created native directory
+[PREBUILD] - Updating package.json
+[PREBUILD] ✔ Updated package.json
+[PREBUILD] - Running prebuild
+[PREBUILD] » android: userInterfaceStyle: Install expo-system-ui in your project to enable this feature.
+[PREBUILD] - Running prebuild
+[PREBUILD] ✔ Finished prebuild
+[PREBUILD] Running "npm install --include=dev" in /tmp/a_13137/eas-build-local-nodejs/917d5a20-fec6-466b-90a8-216c2b42fe3b/build directory
+[PREBUILD] up to date, audited 826 packages in 2s
+[PREBUILD] 
+[PREBUILD] 59 packages are looking for funding
+[PREBUILD]   run `npm fund` for details
+[PREBUILD] 12 moderate severity vulnerabilities
+[PREBUILD] 
+[PREBUILD] To address issues that do not require attention, run:
+[PREBUILD]   npm audit fix
+[PREBUILD] 
+[PREBUILD] To address all issues (including breaking changes), run:
+[PREBUILD]   npm audit fix --force
+[PREBUILD] 
+[PREBUILD] Run `npm audit` for details.
+[RESTORE_CACHE] Local builds do not support restoring cache
+[PREPARE_CREDENTIALS] Writing secrets to the project's directory
+[PREPARE_CREDENTIALS] Injecting signing config into build.gradle
+[PREPARE_CREDENTIALS] Signing config injected
+[EAGER_BUNDLE] Starting Metro Bundler
+[EAGER_BUNDLE] Android node_modules/expo-router/entry.js ▓▓░░░░░░░░░░░░░░ 16.0% ( 29/179)
+[EAGER_BUNDLE] Android node_modules/expo-router/entry.js ▓▓▓░░░░░░░░░░░░░ 21.5% (139/300)
+[EAGER_BUNDLE] Android node_modules/expo-router/entry.js ▓▓▓▓▓▓▓░░░░░░░░░ 49.3% (406/578)
+[EAGER_BUNDLE] Android node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓▓▓░░░░░ 73.1% (615/720)
+[EAGER_BUNDLE] Android node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓░░░ 81.8% (717/803)
+[EAGER_BUNDLE] Android node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░ 93.4% (867/897)
+[EAGER_BUNDLE] Android node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 99.9% (1026/1026)
+[EAGER_BUNDLE] Android Bundled 24520ms node_modules/expo-router/entry.js (1026 modules)
+[EAGER_BUNDLE] Writing bundle output to: /tmp/gk98u3rrtli/index.js
+[EAGER_BUNDLE] Copying 26 asset files
+[EAGER_BUNDLE] Done writing bundle output
+[RUN_GRADLEW] Running 'gradlew :app:assembleRelease' in /tmp/a_13137/eas-build-local-nodejs/917d5a20-fec6-466b-90a8-216c2b42fe3b/build/android
+[RUN_GRADLEW] ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH.
+[RUN_GRADLEW] Please set the JAVA_HOME variable in your environment to match the
+[RUN_GRADLEW] location of your Java installation.
+[RUN_GRADLEW] Error: Gradle build failed with unknown error. See logs for the "Run gradlew" phase for more information.
+
+Build failed
+Gradle build failed with unknown error. See logs for the "Run gradlew" phase for more information.
+Error: Gradle build failed with unknown error. See logs for the "Run gradlew" phase for more information.
+    at resolveBuildPhaseErrorAsync (/home/a_13137/.npm/_npx/0917d8cd6fe7b3c5/node_modules/@expo/build-tools/dist/buildErrors/detectError.js:61:12)
+    at async BuildContext.handleBuildPhaseErrorAsync (/home/a_13137/.npm/_npx/0917d8cd6fe7b3c5/node_modules/@expo/build-tools/dist/context.js:194:28)
+    at async BuildContext.runBuildPhase (/home/a_13137/.npm/_npx/0917d8cd6fe7b3c5/node_modules/@expo/build-tools/dist/context.js:139:35)
+    at async buildAsync (/home/a_13137/.npm/_npx/0917d8cd6fe7b3c5/node_modules/@expo/build-tools/dist/builders/android.js:138:5)
+    at async runBuilderWithHooksAsync (/home/a_13137/.npm/_npx/0917d8cd6fe7b3c5/node_modules/@expo/build-tools/dist/builders/common.js:12:13)
+    at async Object.androidBuilder (/home/a_13137/.npm/_npx/0917d8cd6fe7b3c5/node_modules/@expo/build-tools/dist/builders/android.js:28:16)
+    at async buildAndroidAsync (/home/a_13137/.npm/_npx/0917d8cd6fe7b3c5/node_modules/eas-cli-local-build-plugin/dist/android.js:43:12)
+    at async buildAsync (/home/a_13137/.npm/_npx/0917d8cd6fe7b3c5/node_modules/eas-cli-local-build-plugin/dist/build.js:54:29)
+    at async main (/home/a_13137/.npm/_npx/0917d8cd6fe7b3c5/node_modules/eas-cli-local-build-plugin/dist/main.js:16:9)
+npx -y eas-cli-local-build-plugin@18.8.0 eyJqb2IiOnsidHlwZSI6Im1hbmFnZWQiLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJwcm9qZWN0Um9vdERpcmVjdG9yeSI6Ii4iLCJwcm9qZWN0QXJjaGl2ZSI6eyJ0eXBlIjoiUEFUSCIsInBhdGgiOiIvdG1wL2FfMTMxMzcvZWFzLWNsaS1ub2RlanMvMjMyNTBiMmUtNWRjNi00NzEzLWE5ODEtNzQ0ZGVlZjAxZWFiLnRhci5neiJ9LCJidWlsZGVyRW52aXJvbm1lbnQiOnsiZW52Ijp7IkVYUE9fUFVCTElDX1NVUEFCQVNFX1VSTCI6Imh0dHBzOi8vcWl1c2xneGFla29qcXphc3J4enEuc3VwYWJhc2UuY28iLCJFWFBPX1BVQkxJQ19TVVBBQkFTRV9BTk9OX0tFWSI6InNiX3B1Ymxpc2hhYmxlXzhENFQxdXJraTBkWjZ6QkFoYm4zendfVldjVHpzR0gifX0sImNhY2hlIjp7ImRpc2FibGVkIjpmYWxzZSwicGF0aHMiOltdLCJjbGVhciI6ZmFsc2V9LCJzZWNyZXRzIjp7ImJ1aWxkQ3JlZGVudGlhbHMiOnsia2V5c3RvcmUiOnsiZGF0YUJhc2U2NCI6Ii91Mys3UUFBQUFJQUFBQUJBQUFBQVFBZ00yUTBNR00wTURkaU9UazJZalJoTlRJNU1qWmlOREpsTlRObFpUazROemNBQUFHZHlqcFVOUUFBQlFJd2dnVCtNQTRHQ2lzR0FRUUJLZ0lSQVFFRkFBU0NCT295VGNTTzViWFZDdW9ESmdxT3A0UTNTMlJSN3g1cGErVy9TcEtETm1iMWVkbU5yNXRYbnpDbUY2Mmp6dE9EM0ZoeFhUdncyVnNHUmJhbmVNdWY4YnFDNmRzMGJscVZCclA4V0s4L3NvN3VwQnhvQytLN0dTcU1TODVodldFSXgvRzZ3ZGhwTjNZV0w3MnhkRDdpZHkzdk1EYUI2TC9oKzdpOGJ0akJVa294WHdYekFJTWlYZms0S2ZLKzJhMW0xREhBdjhkTEhSb0pPUFVhMDdKUkJXdjVXK2RFUnNtRTBxTGtSYnZGUW9DaG90czZZb0YyVUh0QXlDQVE0Q0JMZTNHWnZCb1NWMk9RT1FKZWZkZlZWMGFaNDVVY0hKSGh5ZkRxbzBySklGR2k3SnQzbWd2cm5FM0ZOV2MxVE1LT3JXUElzUnJHaExvUXd3NndIWFhmekZXTzJZeHltOGhmbU0reE5iWEEwQ1dpU3Y2Tkl6S3lIYVNjTGlUbGhPVWRMTnJyU1h6aWE1WGkvRXJJQmkrSlgybnhWcnNOUXdyMUV6QmRxWHVYUVhuSVY5L1l5R2Q1NDU5eWQvbmtwT2VJSFdXMGdCc3gzM2dYZ3BQSVB2bmkzV0E1ZlRzNkFNK2ZrbTc2QmF5OHR0VmRQeHVXYlpzMGRNL2Zya3RGZ05tcFB1Umw2RThDOG1yNndITFViN0lVM0Y5L0lDSUhMZGR0eVVPZUZKcVJTUzROYnNPbythaXROVWZIanZ5U0JTNGRwM1lzTVRXN3RxK2V0QmNyQ0E2RElLMWdLZFZROVBPekVsZTVWcXZpYjZmUWtwcDBDR05rZ3hNSWNaZm5hZU1aeE9PZGVITjhCN3QyT2RyOTNTNzhrVnF2cUNNcFhsSWRHcWo2Q3FkVUdLQ1dQeEJrNmtMTE9XRDRoK25iN2ZpVlZ5SWtaa2N2MjNxaHlYYkRDTHdyNFdOejhTQVlEdnRxRU42bjBzNkJZSStuSnphOW5Zb0xFMnY4NFEyU1FWeWp3b2MxT0FHZ1ZNMkt6REd5bG91a3JHbDA1M0lETjFGMXlaQmFZdWxhU3dPd2YvdTA1WmVXRXZUdC95L0hPb3FHTG4ySVhvb2RKM0dCVVdKbHg2K0FSbUg5WGdVclh1cGQwVGtvNWZNaVoyTEY1V2IzY0Z3QmFQZUU0VVhCL3NPRS96dTFLNE1oa2RXTXcyZnliNzVKQ2RTeEV2Ymo1QmIyVU5ac2pwOC96c0l0UVJrMHBFbEgrNXc3L0x3a1ZKdVljT3dFa2N4MDlCRXppNTBCdDBVb3NPL2JJWjdNV1dIZmVISFAwaWUrRWlGNkNOSnpnbnNxSVgrRHduUmVySjlOSlgxVEdtcXYxOVZYUlBLWkJpSWNOZEJ0ZnY1eTNwdW5tUmlETjhvNjZBM0MzdXRBT0YxNzc2RVR4UTE4YjM5aGhKSUxHUHB2ZGsrcWpFY3FRZ2xTeXV2eG1JTXRUSnRTRlZ1NkdUaTFFOCtUL0ljYVFad3NwODNlV1pTMm9aNS91Z0ZiWlFGbENaRE1RK2pxR3FoNzYycEpiZ0MwdzRSUkNwZjdtcitFT25FeUJuOUlFNlNJTmRDaUpqS1pWKzVjTkJReWcxOXJtTmZCazZ5cG1jcVJ6T052bG8yZkJPOGR2aUxkWDhoc2phWFY5YVdTQjl6NDV5ODA1ZXFMc2MvMDE2WDV6R0Z1N3dETWVzRjVYUy90ME9JTDZUV21TNTk0OGxiMGtBYTBscFU1K0xkVGF4c2RDL3duRVhXNWN2QlF1NjlybzdjM3dyV3ZVemZWNnBtTGZQeVJUU2JMSU1mblQ0eVRpZkR5SmZrVXJWWlptTlYwRmNXOEhIbFpRd0J2c0tQMXAzV21lanl2WUlWWE1HUUVlQjdZUmwraEUreXJjWnpjbEhSdGRtb3JxTTVIQVFxRGdQMzE2ajk3OVZnL3QrbTJOcnVtWlJwc3gwcmhKM1NqR3dkNVJkS091TkNDRzZjQk5iMjhrSml6SS8rRW92RnNDNWovbm9obnZmb3lvUTBKNFM3MEtrVmFkMHFyRmdvaDA0MnN3cDhXZWFRUlBQY2NSQTR1TWJNRm9FSWxnYnovMzBJeDlOb0Y3ZmlFUjlJVUhHb2JQU1hLS094bmRudTlMLzJIbEF5eWE3KzhNZWJPUnFVYm9YUmZld2ZOVlY3WkNtOFZmWXZjUGFTQzV2THZXYlFybGJRSmNia3JBQUFBQVFBRldDNDFNRGtBQUFNeU1JSURMakNDQWhhZ0F3SUJBZ0lKQUt3U3lScGx0RFdnTUEwR0NTcUdTSWIzRFFFQkN3VUFNRVF4Q3pBSkJnTlZCQVlUQWxWVE1Ra3dCd1lEVlFRSUV3QXhDVEFIQmdOVkJBY1RBREVKTUFjR0ExVUVDaE1BTVFrd0J3WURWUVFMRXdBeENUQUhCZ05WQkFNVEFEQWdGdzB5TmpBME1qWXhORE00TXpOYUdBOHlNRFV6TURreE1URTBNemd6TTFvd1JERUxNQWtHQTFVRUJoTUNWVk14Q1RBSEJnTlZCQWdUQURFSk1BY0dBMVVFQnhNQU1Ra3dCd1lEVlFRS0V3QXhDVEFIQmdOVkJBc1RBREVKTUFjR0ExVUVBeE1BTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFuYUdSM1RkSHU1QllvVzg3NE5WZkdLYU5RN2VwOUgxa1lwdmVxdk5Id2hjcEdOd3A0a1pXY1dId05lRk9ublEzaWkvNjA4T2MwcHVRZzVnbGpjWmpsRVBvWkFHL25Gb2gxNUtFU2dRbGI2ZlRIaXM5OGZDaWR3Nmd2NEJjN2MwOHhFUE5wb0JTR0QwaDA5OHhyUjVZbXNLWDN5eXBmekFxcGcyN2JWV3grSDdPZytxa0lMZVFJS0d0WW41UDlLRjhsQ3dOZC9pT0N0UkV5Tktsekg3Ym9wV0dkNlE0WmhnekUraENmS1FBbitFY0ExQXo0TVpWeEpEa0g5QXFibjA0TzdtS2xBU1RtcnhKdDloMWtTQTVxdzZTVjJzL3BwKzFEN3lHNXBGdXIyL3ZsQVNXKzhYUXpsUUhGUDIxZ2RqUm1Ram1NT3BuTnNCMDBXODN0SURLNlFJREFRQUJveUV3SHpBZEJnTlZIUTRFRmdRVXdTSG91R1l0TGJOZE9NdFhwWmRoREVzUmR6a3dEUVlKS29aSWh2Y05BUUVMQlFBRGdnRUJBSG5NL3k4Z3VOaHMyM0VrRmtLcE1SSzQ1UldjM3VZaFFXQ0c4RDR2ZDl3YTFXSlpzSjVObk9iRUZBZ0xZem50UlEvOWJLU21WWm9UK0dqanNud0xxUkgrdVdpYk5SakxNWXZpRVNlbXJVV1h6Z1drY2YyUTUyU2NmWlFhWDN1VmZEWW81V0ZaeURuSko5SEtlMW00N2pTaVAvMUN5bXI4WFpmLzI5UWgrWmMwcW8vUW45TnNmVDZhOG04U01xaVdMLzNoVEdVVFBvVkhBYVVldm8wa3d6RklnQkhOUVJVOVg4WUFpZEJtMVE3S3c5aGtrV1MvNnAySzFJUS85c20vWFRVS3dONHFFOTZZODNDY0VzUENnTkZzazc3L0VrQlUzYjg2Vk9jTE1SM0VXaDNqQW1aQ09iRS9hSGJPVm1MMlYzNmZuc2J0d2lyS1JpcUl1R2s5RnJIVitRbFlndG9tK0ZoVVBra3dBRkF5MGlwZ1RnPT0iLCJrZXlzdG9yZVBhc3N3b3JkIjoiNDM4MGM0MDgxMGExZjdmMzI0ZjAyYTcyYTYzOGUxOGQiLCJrZXlBbGlhcyI6IjNkNDBjNDA3Yjk5NmI0YTUyOTI2YjQyZTUzZWU5ODc3Iiwia2V5UGFzc3dvcmQiOiI1YjcwZmM5NDc2M2U1Y2VjMzQ3MzhiY2RlYTdhODUwZCJ9fX0sInVwZGF0ZXMiOnt9LCJidWlsZFR5cGUiOiJhcGsiLCJ1c2VybmFtZSI6ImFtYW5hLWNvbGxlY3RlIiwiZXhwZXJpbWVudGFsIjp7fSwibW9kZSI6ImJ1aWxkIiwidHJpZ2dlcmVkQnkiOiJFQVNfQ0xJIiwiYXBwSWQiOiIxNjlkMzQxNC01MTM2LTRhOWItODZlZi0yYWQ5ODEwZTBhZDAiLCJpbml0aWF0aW5nVXNlcklkIjoiNDJkZjI3MGQtMWI3Ni00MjY2LTg0OTgtNGI5ZDJlYzM0YjA5In0sIm1ldGFkYXRhIjp7InRyYWNraW5nQ29udGV4dCI6eyJ0cmFja2luZ19pZCI6IjI0NWU1M2Y1LWExNmQtNDJmYi1hODRjLTE4ZTdiZTlkZDI1NCIsInBsYXRmb3JtIjoiYW5kcm9pZCIsInNka192ZXJzaW9uIjoiNTQuMC4wIiwiYWNjb3VudF9pZCI6ImJhNjg4ZTUzLWQ2ZWItNDVmOC05OTRkLTFiMjRmMGU3NGFiMSIsInByb2plY3RfaWQiOiIxNjlkMzQxNC01MTM2LTRhOWItODZlZi0yYWQ5ODEwZTBhZDAiLCJwcm9qZWN0X3R5cGUiOiJtYW5hZ2VkIiwiZGV2X2NsaWVudCI6ZmFsc2UsIm5vX3dhaXQiOmZhbHNlLCJydW5fZnJvbV9jaSI6ZmFsc2UsImxvY2FsIjp0cnVlfSwiYXBwQnVpbGRWZXJzaW9uIjoiMSIsImFwcFZlcnNpb24iOiIxLjAuMCIsImNsaVZlcnNpb24iOiIxOC44LjEiLCJ3b3JrZmxvdyI6Im1hbmFnZWQiLCJjcmVkZW50aWFsc1NvdXJjZSI6InJlbW90ZSIsInNka1ZlcnNpb24iOiI1NC4wLjAiLCJmaW5nZXJwcmludEhhc2giOiJkODc0N2FiODRlNzMwOTMxODJhZGY5Y2Y4MjZkZGFiYmJjYTVlNmJhIiwicmVhY3ROYXRpdmVWZXJzaW9uIjoiMC44MS41IiwiZGlzdHJpYnV0aW9uIjoic3RvcmUiLCJhcHBOYW1lIjoiQU1BTkEgQ29sbGVjdGUiLCJhcHBJZGVudGlmaWVyIjoibWEuYmFyaWQuYW1hbmEuY29sbGVjdGUiLCJidWlsZFByb2ZpbGUiOiJwcmV2aWV3IiwiZ2l0Q29tbWl0SGFzaCI6IjVkZTlmNmIzZGUxNDBkYTM4YjhhNjk2ZjE0NmQwMzg1NmQxNDdjZGYiLCJnaXRDb21taXRNZXNzYWdlIjoiZml4KG1vYmlsZSk6IGJhYmVsLXByZXNldC1leHBvIG1hbnF1YW50LCBzdXBwciBBcHAudHN4L2luZGV4LnRzLCBlbnYgRUFTLCAubnBtcmMiLCJpc0dpdFdvcmtpbmdUcmVlRGlydHkiOnRydWUsInVzZXJuYW1lIjoiYW1hbmEtY29sbGVjdGUiLCJydW5XaXRoTm9XYWl0RmxhZyI6ZmFsc2UsInJ1bkZyb21DSSI6ZmFsc2UsImRldmVsb3BtZW50Q2xpZW50IjpmYWxzZSwicmVxdWlyZWRQYWNrYWdlTWFuYWdlciI6Im5wbSIsInNpbXVsYXRvciI6ZmFsc2V9fQ== exited with non-zero code: 1
+    Error: build command failed.
