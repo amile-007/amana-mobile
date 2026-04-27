@@ -6,6 +6,7 @@ import {
 import { useLocalSearchParams, router } from 'expo-router'
 import * as Location from 'expo-location'
 import { supabase } from '@/lib/supabase'
+import { MissionMessages } from '@/components/MissionMessages'
 
 type Colis = {
   id: string
@@ -31,8 +32,10 @@ export default function MissionScreen() {
   const [demande, setDemande] = useState<Demande | null>(null)
   const [loading, setLoading] = useState(true)
   const [confirming, setConfirming] = useState(false)
+  const [collecteurId, setCollecteurId] = useState<string | null>(null)
 
   useEffect(() => {
+    supabase.auth.getUser().then(({ data: { user } }) => setCollecteurId(user?.id ?? null))
     supabase
       .from('demandes')
       .select('id, statut, ville, adresse_collecte_texte, notes, creneau_souhaite, colis_amana(id, destinataire_nom, destinataire_telephone, destinataire_adresse, destination_ville, poids_declare)')
@@ -138,6 +141,8 @@ export default function MissionScreen() {
           <Text style={styles.doneText}>Collecte confirmée</Text>
         </View>
       )}
+
+      <MissionMessages demandeId={id} collecteurId={collecteurId} />
 
       <View style={{ height: 40 }} />
     </ScrollView>
