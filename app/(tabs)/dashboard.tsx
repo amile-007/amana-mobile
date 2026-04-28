@@ -5,6 +5,7 @@ import {
 } from 'react-native'
 import { router } from 'expo-router'
 import { supabase } from '@/lib/supabase'
+import { GroupMessages } from '@/components/GroupMessages'
 
 type Mission = {
   id: string
@@ -23,12 +24,17 @@ const STATUT_COLOR: Record<string, string> = {
 
 export default function DashboardScreen() {
   const [missions, setMissions] = useState<Mission[]>([])
+  const [centreId, setCentreId] = useState<string | null>(null)
   const [loading, setLoading] = useState(true)
   const [refreshing, setRefreshing] = useState(false)
 
   const fetchMissions = useCallback(async () => {
     const { data: { user } } = await supabase.auth.getUser()
     if (!user) return
+
+    // Récupérer le centre_id du collecteur
+    supabase.from('collecteurs').select('centre_id').eq('id', user.id).single()
+      .then(({ data: col }) => { if (col?.centre_id) setCentreId(col.centre_id) })
 
     const today = new Date().toISOString().split('T')[0]
     const { data } = await supabase
@@ -71,6 +77,8 @@ export default function DashboardScreen() {
           <Text style={styles.counterLabel}>En cours</Text>
         </View>
       </View>
+
+      <GroupMessages centreId={centreId} />
 
       <FlatList
         data={missions}
